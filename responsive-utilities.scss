@@ -1,0 +1,36 @@
+@import 'responsive-utilities.generator.scss';
+
+// Add all utility classes here in a mixin
+
+@mixin utilityClasses($_prefix:'', $breakpoint_max:''){
+  
+  .#{$_prefix}float-right { float: right; }
+  .#{$_prefix}float-left { float: right; }
+  .#{$_prefix}float-none { float: none; }
+
+  .#{$_prefix}text-center { text-align:center; }
+  .#{$_prefix}text-left { text-align:left; }
+  .#{$_prefix}text-right { text-align:right; }
+  .#{$_prefix}hidden { display: none; }
+}
+
+@include responsiveUtilitiesGenerator();
+
+// Default settings for responsiveUtilitiesGenerator()
+
+//   (0, 480px, 800px), // breakpoints
+//   'px',              // breakpoint type px or em 
+//   (s-,m-,l-)         // breakpoint prefixes
+
+// Optionally call responsiveUtilitiesGenerator() with em units
+// @include responsiveUtilities Generator(
+//   (0, 35em, 55em),   // breakpoints
+//   'em',              // breakpoint type 'px' or 'em'
+// );
+
+// Optionally call responsiveUtilitiesGenerator() overwritting the defaults
+// @include responsiveUtilities Generator(
+//   (0, 35em, 55em),   // breakpoints
+//   'em',              // breakpoint type 'px' or 'em'
+//   (sm-,med-,lg-)     // breakpoint prefixes
+// );

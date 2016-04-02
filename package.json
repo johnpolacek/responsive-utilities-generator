@@ -1,0 +1,31 @@
+{
+  "name": "responsive-utilities-generator",
+  "title": "Responsive Utilities Generator",
+  "version": "1.0.0",
+  "description": "A SASS generator for creating responsive utility classes.",
+  "main": "responsive.responsive.utilities.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnpolacek/responsive-utilities-generator.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "typography",
+    "utilities",
+    "responsive"
+  ],
+  "author": {
+    "name": "John Polacek",
+    "url": "http://www.johnpolacek.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpolacek/responsive-utilities-generator/issues"
+  },
+  "homepage": "https://github.com/johnpolacek/responsive-utilities-generator",
+  "files":[
+    "responsive.utilities.generator.scss",
+    "responsive.utilities.scss"
+  ]
+}
