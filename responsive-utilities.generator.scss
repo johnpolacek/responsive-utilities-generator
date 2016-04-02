@@ -1,18 +1,14 @@
- 
-  // Responsive Utilities – Author & copyright (c) 2015: John Polacek
-  // Follow on Twitter: @johnpolacek
-
-  // Dual MIT & GPL license
-
-  // Project Page: http://johnpolacek.github.com/responsive-utilities-generator
-  
+// Responsive Utilities – Author & copyright (c) 2015: John Polacek
+// Follow on Twitter: @johnpolacek
+// Dual MIT & GPL license
+// Project Page: http://johnpolacek.github.com/responsive-utilities-generator  
   
 //* generate responsive utility classes for each breakpoint, defaults defined below */
 @mixin responsiveUtilitiesGenerator(
-         $breakpoints: (0, 480px, 800px), // breakpoints
-         $breakpointType: 'px',           // breakpoint type px or em 
-         $breakpointPrefixes: (s-,m-,l-)  // breakpoint prefixes
-       ) {
+    $breakpoints: (0, 480px, 800px), // breakpoints
+    $breakpointType: 'px',           // breakpoint type px or em 
+    $breakpointPrefixes: (s-,m-,l-)  // breakpoint prefixes
+  ) {
 
   //* top-level classes first, no prefix */
   @include utilityClasses();
