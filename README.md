@@ -33,8 +33,4 @@ sass responsive-utilities.scss responsive-utilities.css
 ```
 
 ##License
-Author & copyright (c) 2015
-
-
-
-: [John Polacek](http://johnpolacek.com), Dual MIT & GPL license
+Author & copyright (c) 2015: [John Polacek](http://johnpolacek.com), Dual MIT & GPL license
